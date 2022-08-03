@@ -1,0 +1,16 @@
+﻿p, supervisor, account, read
+p, supervisor, account, create
+p, supervisor, account, change
+p, supervisor, account, delete
+p, supervisor, document, read
+p, supervisor, document, create
+p, supervisor, document, change
+p, supervisor, document, delete
+p, business_user, account, read
+p, business_user, document, read
+
+p2, supervisor, document, true, read
+p2, business_user, document, r3.obj.DocumentType == "letter", read
+
+g, alice, supervisor, any
+g, bob, business_user, branch1
